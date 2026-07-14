@@ -12,8 +12,8 @@ st.markdown("Dashboard interaktif untuk memantau performa bisnis dan kepuasan pe
 st.markdown("---")
 
 # Load data yang sudah kita simpan sebelumnya
-df_reviews = pd.read_csv('dashboard_reviews_2018.csv')
-df_categories = pd.read_csv('dashboard_top_10_categories.csv')
+df_reviews = pd.read_csv('dashboard/dashboard_reviews_2018.csv')
+df_categories = pd.read_csv('dashboard/dashboard_top_10_categories.csv')
 
 # Membagi halaman menjadi 2 Kolom berdampingan
 col1, col2 = st.columns(2)
